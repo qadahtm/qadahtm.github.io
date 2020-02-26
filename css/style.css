@@ -4110,3 +4110,7 @@ body.skew .portfolio .container  {
 .testimonials .divider .fa {
   color: white;
 }
+
+.projectmanager {
+  border: 4px solid #4169e1 !important;
+}
