@@ -242,7 +242,8 @@
 		// FIX HEADER ON SCROLL
 		var e = $(window).scrollTop();
 		$(window).height();
-		e > 1 ? $(".header").addClass("header-fixed") : $(".header").removeClass("header-fixed");
+		//Keep nav css class
+		// e > 1 ? $(".header").addClass("header-fixed") : $(".header").removeClass("header-fixed");
 		
 		// BACK TO TOP
 		if ($(this).scrollTop() > 100) {
