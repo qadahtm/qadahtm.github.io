@@ -1651,7 +1651,7 @@ body.dark .header.header-fixed .logo a img.logo-dark {
 }
 .custom-button:before {
     content: "\f1d8";
-    font: 15px/1.2em FontAwesome;
+    font: 15px/1.2em Font Awesome 5 Free;
     color: #fff;
     position: absolute;
     height: 100%;
@@ -2107,7 +2107,7 @@ body.dark .header.header-fixed .logo a img.logo-dark {
 }
 .testimonials #quote-carousel p:before,
 .testimonials #quote-carousel p:after {
-    font-family: "FontAwesome";
+    font-family: 'Font Awesome 5 Free';
 }
 .testimonials #quote-carousel p:before {
     margin-right: 20px;
@@ -2990,7 +2990,7 @@ body.blog-page article .comments-form .custom-button:before {
 
 .btn-wrapper a:before {
   content: "\f04b";
-  font-family: FontAwesome;
+  font-family: Font Awesome 5 Free;
   font-size: 26px;
   left: 50%;
   line-height: 41px;
@@ -3168,7 +3168,7 @@ body.blog-page article .comments-form .custom-button:before {
     padding: 15px;
 }
 .contactform .output_message.success:before {
-    font-family: FontAwesome;
+    font-family: Font Awesome 5 Free;
     content: "\f14a";
     padding-right: 10px;
 }
@@ -3177,7 +3177,7 @@ body.blog-page article .comments-form .custom-button:before {
     padding: 15px;
 }
 .contactform .output_message.error:before {
-    font-family: FontAwesome;
+    font-family: Font Awesome 5 Free;
     content: "\f071";
     padding-right: 10px;
 }
@@ -3298,7 +3298,7 @@ body.dark.blog-page .banner-blog-post .meta {
   display: block;
   -webkit-transition: 0.8s;
   transition: 0.8s;
-  font-family: FontAwesome;
+  font-family: 'Font Awesome 5 Brands';
   font-size: 30px;
   text-align: center;
 }
@@ -3389,7 +3389,6 @@ body.dark.blog-page .banner-blog-post .meta {
 #back-top span:after {
     content: "\f062";
     font-size: 19px;
-    font-family: FontAwesome;
     line-height: 41px;
     position: absolute;
     left: 0;
