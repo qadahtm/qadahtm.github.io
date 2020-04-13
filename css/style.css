@@ -3307,6 +3307,10 @@ body.dark.blog-page .banner-blog-post .meta {
   content: "\f09a";
 }
 
+.social-icons ul li a[title="researchgate"]:before {
+  content: "\f4f8";
+}
+
 .social-icons ul li a[title="twitter"]:before {
   content: "\f099";
 }
