@@ -2449,11 +2449,11 @@ body.dark .header.header-fixed .logo a img.logo-dark {
 
 .newsletter {
     color: #fff;
-    background-image: url("http://via.placeholder.com/1600x650");
+    background-image: url("../img/service_bg.jpg");
     background-attachment: fixed;
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: auto 110%;
+    background-repeat: repeat-y;
+    background-size: auto;
 }
 .newsletter p {
     color: #fff;
@@ -3931,6 +3931,15 @@ body.skew .portfolio .container  {
 .news li {
   display: block;
   list-style: none;
+  line-height: normal;
+}
+
+.news ul.sublist {
+  list-style: square;
+}
+
+.news ul.sublist li {
+  display: inline-block;
 }
 .news-date {
   /*font-style: italic;*/
