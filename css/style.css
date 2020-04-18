@@ -3923,6 +3923,11 @@ body.skew .portfolio .container  {
   font-family: "Raleway", sans-serif;
 }
 
+.youtube-thumb{
+  width: 50%;
+  margin: auto;
+}
+
 .news p {
   font-size: 1.3rem !important;
   color: white;
