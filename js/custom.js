@@ -124,6 +124,15 @@
 				}
 			}
 		});
+
+		jQuery(".mfp-pdf").magnificPopup({
+			type: "iframe",
+			mainClass: "mfp-fade",
+			removalDelay: 0,
+			preloader: false,
+			fixedContentPos: false,
+		});
+
 		function magnific_popup_init(item) {
 			item.magnificPopup({
 				delegate: "a[data-gal^='magnific-pop-up']",
