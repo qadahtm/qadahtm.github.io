@@ -3924,7 +3924,8 @@ body.skew .portfolio .container  {
 }
 
 .youtube-thumb{
-  width: 50%;
+  height: 8rem;
+  width: auto;
   margin: auto;
 }
 
