@@ -3311,6 +3311,10 @@ body.dark.blog-page .banner-blog-post .meta {
   content: "\f4f8";
 }
 
+.social-icons ul li a[title="orcid"]:before {
+  content: "\f8d2";
+}
+
 .social-icons ul li a[title="twitter"]:before {
   content: "\f099";
 }
