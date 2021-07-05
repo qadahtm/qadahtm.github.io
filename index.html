@@ -244,8 +244,16 @@
                     </div>
                     <!-- Main Heading Ends -->
                     <div class="row news">
+                        <twitter-status></twitter-status>
+
+                        <script>
+                            document.querySelector('twitter-status').status = { "id_str": "20" };
+                        </script>
                         <div class="col-lg-12 col-md-12 col-sm-12">
                             <ul class="text-left">
+                                <li> <i class="fa fa-newspaper"></i> <span class="news-date">June 29, 2021</span>
+                                <p>Pleased to pass my Ph.D. final exam! Very excited to start the next chapter of my life!
+                                </p></li>
                                 <li> <i class="fa fa-newspaper"></i> <span class="news-date">May 8, 2021</span>
                                     <p>Pleased to officially earn my P.G. Certificate in Teaching and Learning in Engineering from the School of Engineering Education at Purdue!
                                     </p></li>
@@ -392,7 +400,7 @@
                         <h4>
                             <span class="badge badge-info">C</span> Peer-reviewed Conferences,
                             <span class="badge badge-danger">J</span> Peer-reviewed Journals,
-                            <span class="badge badge-secondary">O</span> Pre-prints, Workshops, and Demos
+                            <span class="badge badge-secondary">O</span> Abstracts, Demos, Pre-prints, or Workshops
                         </h4>
                     </div>
                     <!-- Main Heading Starts -->
@@ -409,14 +417,14 @@
                                     <span class="pubs-h">LogStore: A Workload-aware, Adaptable Key-Value Store on Hybrid Storage Systems.</span>
                                     <p>
                                         <span class="badge badge-danger">J</span>
-                                        <span class="badge badge-info">C</span>
+                                        <span class="badge badge-info">O</span>
                                         <!--                                    <a class="badge badge-light mfp-pdf" href="#"><i class="fas fa-file-pdf"></i> PDF</a>-->
                                         <a class="badge badge-light image-wrap mfp-youtube" href="https://www.youtube.com/watch?v=gI_NAC0MLiE"> <i class="fab fa-youtube"></i></a>
                                         <a class="badge badge-light" href="https://github.com/MSRG/LogStore"> <i class="fab fa-github"></i></a>
                                         <a class="badge badge-light" href="https://doi.org/10.1109/TKDE.2020.3027191">DOI <i class="fas fa-external-link-alt"></i></a>
                                     </p>
                                     <p>P. Menon, <span class="authorship">Thamir M. Qadah</span>, T. Rabl, M. Sadoghi, H.-A. Jacobsen. IEEE TKDE</p>
-                                    
+
                                 </div>
                                 <!-- end item -->
 
@@ -703,6 +711,8 @@
                         <div class="row news">
                             <div class="col-lg-12 col-md-12 col-sm-12">
                                 <ul class="text-left">
+                                    <li> <i class="fas fa-hands-helping"></i> Served as a external reviewer for CIKM 2021.
+                                    </li>
                                     <li> <i class="fas fa-hands-helping"></i> Served as a journal reviewer for IEEE Access, 2021.
                                     </li>
                                     <li> <i class="fas fa-hands-helping"></i> Served as an external reviewer for VLDB 2021.
